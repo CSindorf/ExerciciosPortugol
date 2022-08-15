@@ -4,6 +4,7 @@ O usuário usa a fila preferencial caso:
 ● Possui mais de 60 anos : Usa fila preferencial
 ● É deficiente físico : Usa fila preferencial
 ● É mulher gestante : Usa fila preferencial
+
 O programa recebe como entrada a Idade, Sexo e a condição especial do usuário, se houver.
 Exemplo de entrada: 22 homem deficiente
 Saída esperada: Fila preferencial
@@ -59,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 501; 
+ * @POSICAO-CURSOR = 334; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
