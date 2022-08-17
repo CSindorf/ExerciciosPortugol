@@ -1,4 +1,5 @@
 /*
+ * 
 Escreva um programa que imprima todos os número de 1 até n.
 Exemplo de entrada: 6
 Saída esperada: 1 2 3 4 5 6
@@ -35,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 113; 
+ * @POSICAO-CURSOR = 6; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

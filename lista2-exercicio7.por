@@ -1,4 +1,5 @@
 /* 
+ *  
 Modifique o programa anterior para imprimir todos os números ímpares de 1 até n.
 Exemplo de entrada: 6
 Saída esperada: 1 3 5
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 129; 
+ * @POSICAO-CURSOR = 263; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

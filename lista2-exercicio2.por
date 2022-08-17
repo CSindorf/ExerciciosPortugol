@@ -6,6 +6,7 @@ Saída esperada: O triângulo é isósceles
 Escaleno: as medidas de todos os lados são diferentes
 Isósceles: pelo menos 2 lados tem medidas iguais
 Equilátero: os 3 lados tem a mesma medida
+
 */
  
 programa
@@ -52,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 535; 
+ * @POSICAO-CURSOR = 310; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

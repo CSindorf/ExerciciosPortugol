@@ -8,6 +8,7 @@ O usuário usa a fila preferencial caso:
 O programa recebe como entrada a Idade, Sexo e a condição especial do usuário, se houver.
 Exemplo de entrada: 22 homem deficiente
 Saída esperada: Fila preferencial
+
 */
 
 programa
@@ -60,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 334; 
+ * @POSICAO-CURSOR = 499; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

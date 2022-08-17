@@ -57,29 +57,21 @@ programa
 
 	funcao real soma(real n1, real n2)
 	{
-		real resultado
-		resultado = n1+n2
-		retorne resultado
+		retorne n1+n2
 	}
 
 	funcao real diminuir(real n1, real n2)
 	{
-		real resultado
-		resultado = n1-n2
-		retorne resultado
+		retorne n1-n2
 	}
 
 	funcao real multiplicar(real n1, real n2)
 	{
-		real resultado
-		resultado = n1*n2
-		retorne resultado
+		retorne n1*n2
 	}
 	funcao real dividir(real n1, real n2)
 	{
-		real resultado
-		resultado = n1/n2
-		retorne resultado
+		retorne n1/n2
 	}
 }
 
@@ -90,7 +82,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 103; 
+ * @POSICAO-CURSOR = 360; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

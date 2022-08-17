@@ -7,6 +7,7 @@ Digite o segundo número : 6
 
 Saída esperada:
 A média é : 4
+
 */
 
 programa
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 258; 
+ * @POSICAO-CURSOR = 188; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

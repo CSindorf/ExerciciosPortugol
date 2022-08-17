@@ -3,6 +3,7 @@ Escreva um programa que encontre a soma de dígitos de um número.
 Exemplo de entrada: 2020
 Saída esperada: 4
 
+
 */
 
 programa

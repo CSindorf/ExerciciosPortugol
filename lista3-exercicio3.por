@@ -1,9 +1,11 @@
 /*
-7 - Escreva uma função que insere um nome em uma mensagem automática :
-Exemplo de entrada: 
-Digite um nome : Fulano
-Saída esperada: Bom dia Fulano!
-
+3 - Escreva um programa que imprima o seguinte padrão de número em formato de triângulo dado um número n.
+Exemplo de entrada: 4
+Saída esperada:
+1 
+12 
+123 
+1234
 */
 
 programa
@@ -11,15 +13,21 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome
-		
-		escreva("Digite um nome: ")
-		leia(nome)
-		escreva("\nBom dia, ", saudacao(nome), "\n")
-	}
-	funcao cadeia saudacao(cadeia nome)
-	{
-		retorne nome
+		real numero
+		inteiro i=1
+
+		escreva("Digite um número: ")
+		leia(numero)
+
+		enquanto (i<=numero)
+		{
+			para (inteiro ii=1; ii<=i; ii++)
+			{
+				escreva(ii)
+			}
+			escreva("\n")
+			i+=1
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 151; 
+ * @POSICAO-CURSOR = 278; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

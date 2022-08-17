@@ -1,25 +1,24 @@
 /*
-7 - Escreva uma função que insere um nome em uma mensagem automática :
-Exemplo de entrada: 
-Digite um nome : Fulano
-Saída esperada: Bom dia Fulano!
-
-*/
+1 - Escreva um programa que leia 10 números inteiros do teclado e armazena no vetor. Após isso, imprima os 10 inteiros em ordem inversa ao que foi digitado.
+ */
 
 programa
 {
 	
 	funcao inicio()
 	{
-		cadeia nome
-		
-		escreva("Digite um nome: ")
-		leia(nome)
-		escreva("\nBom dia, ", saudacao(nome), "\n")
-	}
-	funcao cadeia saudacao(cadeia nome)
-	{
-		retorne nome
+		inteiro vetor[10], i
+
+		para(i = 0; i < 10; i++)
+		{
+			escreva ("Digite um número: ")
+			leia(vetor[i])
+		}
+		//mostra o inverso do digitado
+		para(i = 9; i >= 0; i--)
+		{
+			escreva("\nOs vetores são: ", vetor[i])
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 151; 
+ * @POSICAO-CURSOR = 304; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
