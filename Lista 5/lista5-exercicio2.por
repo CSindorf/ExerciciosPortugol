@@ -7,7 +7,7 @@ programa
 	
 	funcao inicio()
 	{
-		real vetor[100], soma = 0.0, media
+		real vetor[50], soma = 0.0, media
 		inteiro i, qtd
 
 		escreva("Insira o número de componentes do vetor: ")
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 318; 
+ * @POSICAO-CURSOR = 149; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

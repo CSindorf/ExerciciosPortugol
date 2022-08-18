@@ -7,7 +7,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[10], i
+		real vetor[10]
+		inteiro i
 
 		para(i = 0; i < 10; i++)
 		{
@@ -15,9 +16,10 @@ programa
 			leia(vetor[i])
 		}
 		//mostra o inverso do digitado
+		escreva("\nOs números digitados exibidos na ordem inversa são:\n")
 		para(i = 9; i >= 0; i--)
 		{
-			escreva("\nOs vetores são: ", vetor[i])
+			escreva("[",vetor[i],"]\n")
 		}
 	}
 }
@@ -26,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 304; 
+ * @POSICAO-CURSOR = 476; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

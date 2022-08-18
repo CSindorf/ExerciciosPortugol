@@ -6,7 +6,7 @@ programa
 {
 	funcao inicio()
 	{
-		real matriz[100][100], soma = 0.0
+		real matriz[50][50], soma = 0.0
 		//i = linha e j = coluna
 		inteiro i, j, lM, cM
 
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 912; 
+ * @POSICAO-CURSOR = 144; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

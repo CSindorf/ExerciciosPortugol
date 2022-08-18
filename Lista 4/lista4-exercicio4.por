@@ -16,12 +16,11 @@ programa
 	
 	funcao inicio()
 	{
-		imprimirNumeros(0)
+		imprimirNumeros(1)
 	}
 
 	funcao imprimirNumeros(inteiro i)
 	{
-
 		se(i == 50)
 		{
 			escreva(i)

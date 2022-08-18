@@ -6,7 +6,7 @@ programa
 {
 	funcao inicio()
 	{
-		real matriz1[100][100], matriz2[100][100], matrizMultiplicada[100][100]
+		real matriz1[50][50], matriz2[50][50], matrizMultiplicada[50][50]
 		inteiro l1, c1, l2, c2, i, j, z
 
 		//pergunta a dimensão da matriz
@@ -110,9 +110,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2267; 
+ * @POSICAO-CURSOR = 162; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {matriz1, 9, 7, 7}-{matriz2, 9, 26, 7}-{matrizMultiplicada, 9, 45, 18};
+ * @SIMBOLOS-INSPECIONADOS = {matriz1, 9, 7, 7}-{matriz2, 9, 24, 7}-{matrizMultiplicada, 9, 41, 18};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
