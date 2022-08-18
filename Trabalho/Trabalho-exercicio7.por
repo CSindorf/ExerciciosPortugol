@@ -23,9 +23,6 @@ programa
 			{
 				escreva(i," ")
 			}
-			se(ePrimo(i) == 0){
-				escreva("\nVocê digitou um número que não tem números primos antes dele")
-			}
 		}
 	}
 
@@ -51,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 455; 
+ * @POSICAO-CURSOR = 434; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
