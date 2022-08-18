@@ -12,17 +12,19 @@ programa
 {
 	funcao inicio()
 	{
-		inteiro numero, altura
-		
+		inteiro i, j, numero
 		escreva("Informe um número inteiro: ")
 		leia(numero)
 		
-		para(numero; numero >= 1; numero--){
-			para(altura = 1; altura <= numero; altura++){
+		para(i = 1; i <= numero ; i++)
+		{
+			
+			para(j = 1; j <= i; j++)
+			{
 				escreva("*")
-				}
-			escreva("\n")
 			}
+			escreva("\n")
+		}
 	}
 }
 
@@ -32,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 368; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
