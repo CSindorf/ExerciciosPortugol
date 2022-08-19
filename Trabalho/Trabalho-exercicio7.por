@@ -9,46 +9,43 @@ Saída 1 2 3 5
 
 programa
 {
-
+	
 	funcao inicio()
 	{
-		inteiro i, num
+		 inteiro a = 0, b, c, n, d           //Declarando as variáveis
+		 escreva ("Quantos numeros primos deseja exibir? ")
+		 leia(n)
+		 d = n * (-1)
 
-		escreva("Digite um número para ver todos os números primos antes dele: ")
-		leia(num)
-
-		para(i = 1; i <= num; i++)
-		{
-			se(ePrimo(i) == 1)
-			{
-				escreva(i," ")
-			}
-		}
+		 escreva("\nOs primeiros ", n," numeros primos sao:\n")
+		 faca
+		 {
+		 	a++
+		 	c = 0
+		 	para(b=1;b<a;b++)
+		 	{
+		 		se(a%b==0)
+		 		{
+		 			c++
+		 		}
+		 	}
+		 	se(c==1)
+		 	{
+		 		escreva(a, " ")
+		 		d++
+		 	}
+		 }enquanto(d <= -1)
+		 escreva("\n")
 	}
-
-	//verifica quais são os primos do intervalo
-	funcao inteiro ePrimo(inteiro n)
-	{
-		inteiro i, divisores = 0
-
-		para(i = 1; i <= n; i++)
-		{
-			se(n % i == 0)
-			divisores++
-		}
-		se(divisores == 2)
-		retorne 1 // n é primo
-		senao
-		retorne 0 // n não é primo
-	}
-  
 }
+
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 434; 
+ * @POSICAO-CURSOR = 406; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
